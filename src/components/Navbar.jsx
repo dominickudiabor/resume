@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FirstName } from '../editable-stuff/configurations.json';
+import { FirstName } from '../data/configurations.json';
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);

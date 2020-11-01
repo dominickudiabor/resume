@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
-import { showNavigationbar } from './editable-stuff/configurations.json';
+import { showNavigationbar } from './data/configurations.json';
 import MainBody from './components/home/MainBody';
 import AboutMe from './components/home/AboutMe';
 import Project from './components/home/Project';

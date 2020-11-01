@@ -7,7 +7,7 @@ import {
   instaLink,
   instaUsername,
   instaQuerry,
-} from '../../editable-stuff/configurations.json';
+} from '../../data/configurations.json';
 
 const AboutMe = () => {
   const [instaProfilePic, setInstaProfilePic] = useState('');
