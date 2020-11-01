@@ -47,7 +47,7 @@
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "dominickudiabor",
-  "gitHubQuerry": "/repos?sort=updated&direction=asc",
+  "gitHubQuerry": "/repos?sort=updated&direction=desc",
   "projectsLength": 4,
   "showNavigationbar": true,
   "showBlog": false
