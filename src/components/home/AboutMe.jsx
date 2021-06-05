@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import {
-  aboutHeading,
-  aboutDescription,
-  showInstaProfilePic,
+  aboutDescription, aboutHeading,
+
+
   instaLink,
-  instaUsername,
-  instaQuerry,
+
+  instaQuerry, instaUsername, showInstaProfilePic
 } from '../../data/configurations.json';
 
 const AboutMe = () => {
@@ -59,7 +59,7 @@ const AboutMe = () => {
               <a
                 className='btn btn-outline-dark btn-lg'
                 href={
-                  'https://assets.ctfassets.net/449mcwf87tn4/4gvnuep6RWXFta1X7Nomgn/f03bbdebcc578f06ce89fdd355429552/Dominic_Travis_Kudiabor__-_Integrify_CV_-_25.09.2020.pdf'
+                  'https://drive.google.com/file/d/1IZhvfaSaIhGRtI9jBZqw3oGC5P30B-zZ/view?usp=sharing'
                 }
                 target='_blank'
                 rel='noreferrer noopener'
